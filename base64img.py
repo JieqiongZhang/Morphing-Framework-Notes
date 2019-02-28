@@ -67,8 +67,7 @@ Example:
         return
     worklist = [_ for _ in sys.argv[1:] if os.path.isfile(_)]
     calllist = [txt2img if _.find("base64") >= 0 else img2txt for _ in worklist]
-    calling = [_(__) for _, __ in zip(calllist, worklist)]
-    print(calling)
+    for _, __ in zip(calllist, worklist): _(__)
 
     
 if __name__ == "__main__":
