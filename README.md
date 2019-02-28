@@ -8,7 +8,7 @@ Morphing Framework Notes
 * Lubineau, G., Azdoud, Y., Han, F., Rey, C., & Askari, A. (2012). A morphing strategy to couple non-local to local continuum mechanics. *Journal of The Mechanics and Physics of Solids*, 60(6), 1088-1102.
   * doi [10.1016/j.jmps.2012.02.009](https://doi.org/10.1016/j.jmps.2012.02.009)
   * Isotropic material; Homogeneous material
-  * [Notebook](notebook/文章阅读记录-2012-各向同性的均匀材料的耦合方法.md)
+  * [Notebook](notebooks/文章阅读记录-2012-各向同性的均匀材料的耦合方法.md)
 
 ## License
 
