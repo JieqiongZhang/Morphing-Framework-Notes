@@ -1,6 +1,7 @@
 import os
 import re
 import sys
+import glob
 import base64
 
 RE_MARCHER = re.compile(r"data:image/(?P<ext>[A-Za-z]+);base64,(?P<b64>.*)")
@@ -65,7 +66,8 @@ Example:
     if len(sys.argv) <= 1:
         help(main)
         return
-    worklist = [_ for _ in sys.argv[1:] if os.path.isfile(_)]
+    worklist = [_ for __ in sys.argv[1:] for _ in glob.glob(__) if os.path.isfile(_)]
+    worklist = list(set(worklist))
     calllist = [txt2img if _.find("base64") >= 0 else img2txt for _ in worklist]
     for _, __ in zip(calllist, worklist): _(__)
 
