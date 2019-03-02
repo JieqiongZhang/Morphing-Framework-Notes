@@ -10,7 +10,7 @@ Morphing Framework Notes
   * Isotropic material; Homogeneous material
   * [Notebook](notebooks/文章阅读记录-2012-各向同性的均匀材料的耦合方法.md)
 * Azdoud, Y., Han, F., & Lubineau, G. (2013). A Morphing framework to couple non-local and local anisotropic continua. *International Journal of Solids and Structures*, 50(9), 1332-1341.
-  * doi [doi.org/10.1016/j.ijsolstr.2013.01.016](https://doi.org/doi.org/10.1016/j.ijsolstr.2013.01.016)
+  * doi [10.1016/j.ijsolstr.2013.01.016](https://doi.org/10.1016/j.ijsolstr.2013.01.016)
   * Orthotropic material; Transverse isotropic material; Homogeneous material
   * [Notebook](notebooks/文章阅读记录-2013-各向异性的均匀材料的耦合方法.md)
 
