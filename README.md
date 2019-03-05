@@ -1,5 +1,4 @@
-Morphing Framework Notes
-========================================
+# Morphing Framework Notes
 
 [![CC-BY-NC-SA-4.0](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
@@ -13,6 +12,11 @@ Morphing Framework Notes
   * doi [10.1016/j.ijsolstr.2013.01.016](https://doi.org/10.1016/j.ijsolstr.2013.01.016)
   * Orthotropic material; Transverse isotropic material; Homogeneous material
   * [Notebook](notebooks/文章阅读记录-2013-各向异性的均匀材料的耦合方法.md)
+* Azdoud, Y., Han, F., & Lubineau, G. (2014). The morphing method as a flexible tool for adaptive local/non-local simulation of static fracture. *Computational Mechanics*, 54(3), 711-722.
+  * doi [10.1007/s00466-014-1023-3](https://doi.org/10.1007/s00466-014-1023-3)
+  * Isotropic material; Homogeneous material; DGFEM
+  * [Notebook](notebooks/文章阅读记录-2014-模拟具有预置裂纹的裂纹扩展.md)
+
 ## Extra
 
 * Morphing Framework Using FEM [Notebook](notebooks/笔记-耦合方法的有限元离散.md) 
