@@ -13,6 +13,10 @@ Morphing Framework Notes
   * doi [10.1016/j.ijsolstr.2013.01.016](https://doi.org/10.1016/j.ijsolstr.2013.01.016)
   * Orthotropic material; Transverse isotropic material; Homogeneous material
   * [Notebook](notebooks/文章阅读记录-2013-各向异性的均匀材料的耦合方法.md)
+## Extra
+
+* Morphing Framework Using FEM [Notebook](notebooks/笔记-耦合方法的有限元离散.md) 
+* todo
 
 ## License
 
