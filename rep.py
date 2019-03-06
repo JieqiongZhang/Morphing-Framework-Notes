@@ -14,6 +14,7 @@ def main():
             for line in text_data:
                 line = line.replace("<body>", '<body><div class="content"><div class="container">')
                 line = line.replace("</body>", '</body></div></div>')
+                line = line.replace(r"<p><img", r'<p align="center"><img')
                 print(line, file=fout)
             print(file=fout)
         print("{} done.".format(e))
