@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <title>Morphing Framework Notes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css"
+        integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+    <link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet"
+        type="text/css">
+    <style>
+        .task-list-item {
+            list-style-type: none;
+        }
+
+        .task-list-item-checkbox {
+            margin-left: -20px;
+            vertical-align: middle;
+        }
+    </style>
+    <style>
+        body {
+            font-family: "SF UI Display", ".PingFang SC", "PingFang SC", "Neue Haas Grotesk Text Pro", "Arial Nova", "Segoe UI", "Microsoft YaHei", "Microsoft JhengHei", "Helvetica Neue", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans GB", sans-serif;
+            ;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://polossk.github.io/css/github-markdown.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.14.2/styles/github.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+</head>
+
+<body>
+    <h1 id="morphing-framework-notes">Morphing Framework Notes</h1>
+    <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img
+                src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="CC-BY-NC-SA-4.0"></a></p>
+    <h2 id="reading-list">Reading List</h2>
+    <ul>
+        <li>Lubineau, G., Azdoud, Y., Han, F., Rey, C., &amp; Askari, A. (2012). A morphing strategy to couple non-local
+            to local continuum mechanics. <em>Journal of The Mechanics and Physics of Solids</em>, 60(6), 1088-1102.
+            <ul>
+                <li>doi <a href="https://doi.org/10.1016/j.jmps.2012.02.009">10.1016/j.jmps.2012.02.009</a></li>
+                <li>Isotropic material; Homogeneous material</li>
+                <li><a href="https://polossk.github.io/Morphing-Framework-Notes/文章阅读记录-2012-各向同性的均匀材料的耦合方法.html"
+                        target="_black">view in html</a> / <a
+                        href="https://github.com/polossk/Morphing-Framework-Notes/raw/master/notebooks/%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95-2012-%E5%90%84%E5%90%91%E5%90%8C%E6%80%A7%E7%9A%84%E5%9D%87%E5%8C%80%E6%9D%90%E6%96%99%E7%9A%84%E8%80%A6%E5%90%88%E6%96%B9%E6%B3%95.md">download
+                        markdown</a></li>
+            </ul>
+        </li>
+        <li>Azdoud, Y., Han, F., &amp; Lubineau, G. (2013). A Morphing framework to couple non-local and local
+            anisotropic continua. <em>International Journal of Solids and Structures</em>, 50(9), 1332-1341.
+            <ul>
+                <li>doi <a href="https://doi.org/10.1016/j.ijsolstr.2013.01.016">10.1016/j.ijsolstr.2013.01.016</a></li>
+                <li>Orthotropic material; Transverse isotropic material; Homogeneous material</li>
+                <li><a href="https://polossk.github.io/Morphing-Framework-Notes/文章阅读记录-2013-各向异性的均匀材料的耦合方法.html"
+                        target="_black">view in html</a> / <a
+                        href="https://github.com/polossk/Morphing-Framework-Notes/raw/master/notebooks/%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95-2013-%E5%90%84%E5%90%91%E5%BC%82%E6%80%A7%E7%9A%84%E5%9D%87%E5%8C%80%E6%9D%90%E6%96%99%E7%9A%84%E8%80%A6%E5%90%88%E6%96%B9%E6%B3%95.md">download
+                        markdown</a></li>
+            </ul>
+        </li>
+        <li>Azdoud, Y., Han, F., &amp; Lubineau, G. (2014). The morphing method as a flexible tool for adaptive
+            local/non-local simulation of static fracture. <em>Computational Mechanics</em>, 54(3), 711-722.
+            <ul>
+                <li>doi <a href="https://doi.org/10.1007/s00466-014-1023-3">10.1007/s00466-014-1023-3</a></li>
+                <li>Isotropic material; Homogeneous material; DGFEM</li>
+                <li><a href="https://polossk.github.io/Morphing-Framework-Notes/文章阅读记录-2014-模拟具有预置裂纹的裂纹扩展.html"
+                        target="_black">view in html</a> / <a
+                        href="https://github.com/polossk/Morphing-Framework-Notes/raw/master/notebooks/%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95-2014-%E6%A8%A1%E6%8B%9F%E5%85%B7%E6%9C%89%E9%A2%84%E7%BD%AE%E8%A3%82%E7%BA%B9%E7%9A%84%E8%A3%82%E7%BA%B9%E6%89%A9%E5%B1%95.md">download
+                        markdown</a></li>
+            </ul>
+        </li>
+    </ul>
+    <h2 id="extra">Extra</h2>
+    <ul>
+        <li>Morphing Framework Using FEM: <a
+                href="https://polossk.github.io/Morphing-Framework-Notes/笔记-各向同性均匀材料的耦合有限元方法.html" target="_black">view
+                in html</a> / <a
+                href="https://github.com/polossk/Morphing-Framework-Notes/raw/master/notebooks/%E7%AC%94%E8%AE%B0-%E5%90%84%E5%90%91%E5%90%8C%E6%80%A7%E5%9D%87%E5%8C%80%E6%9D%90%E6%96%99%E7%9A%84%E8%80%A6%E5%90%88%E6%9C%89%E9%99%90%E5%85%83%E6%96%B9%E6%B3%95.md">download
+                markdown</a></li>
+        <li>todo</li>
+    </ul>
+    <h2 id="license">License</h2>
+    <p>This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+        To view a copy of this license, visit <a
+            href="http://creativecommons.org/licenses/by-nc-sa/4.0/">http://creativecommons.org/licenses/by-nc-sa/4.0/</a>
+        or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</p>
+
+</body>
+
+</html>
